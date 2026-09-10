@@ -1,9 +1,9 @@
 name: OpenWrt x86_64 Build
 
-on:
+on:                                   
   workflow_dispatch:
-  schedule:
-    - cron: '0 0 * * 3'
+#  schedule:                       #关闭定时启动
+#    - cron: '0 0 * * 3'
 
 jobs:
   build:
